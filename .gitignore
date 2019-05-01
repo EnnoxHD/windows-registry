@@ -1,0 +1,8 @@
+# ignore everything except directories and .gitignore itself
+*
+!*/
+!.gitignore
+
+# allow files and file types
+!LICENSE
+!*.md
