@@ -42,11 +42,11 @@ Value: ShowSecondsInSystemClock
 
 ---
 
-## 2. Real Time is Universal
+## 2. Real Time is universal
 ### Effect
-Configures Windows to use [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) instead of local time for [RTC](https://en.wikipedia.org/wiki/Real-time_clock).
+Configures Windows to use [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) instead of Local Time for [RTC](https://en.wikipedia.org/wiki/Real-time_clock).
 This is especially practical for Dual-Boot Systems with Windows and Linux.
-See [Archlinux Wiki](https://wiki.archlinux.org/index.php/System_time#UTC_in_Windows) for more information.
+See [Archlinux Wiki](https://wiki.archlinux.org/index.php/System_time#UTC_in_Windows) for more Information.
 
 | Before | After |
 |--------|-------|
