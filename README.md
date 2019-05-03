@@ -18,12 +18,12 @@ For more Information see [License](./LICENSE).
 ---
 
 ## 1. Show Seconds in System Clock
-#### Effect
+### Effect
 | Before | After |
 |--------|-------|
 |![](./doc/img/oldclock.png)|![](./doc/img/newclock.png)|
 
-#### Registry Value
+### Registry Value
 ```
   Key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
 Value: ShowSecondsInSystemClock
@@ -31,11 +31,11 @@ Value: ShowSecondsInSystemClock
  Data: 0x00000001
 ```
 
-#### \*.reg Files
+### \*.reg Files
 **Enable:** [file coming soon]()
 
 **Disable (Windows default):** [file coming soon]()
 
-#### Required Action
+### Required Action
 - [x] **Log off**
 - [ ] **Restart**
