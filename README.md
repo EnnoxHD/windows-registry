@@ -39,3 +39,32 @@ Value: ShowSecondsInSystemClock
 ### Required Action
 - [x] **Log off**
 - [ ] **Restart**
+
+---
+
+## 2. Real Time is Universal
+### Effect
+Configures Windows to use [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) instead of local time for [RTC](https://en.wikipedia.org/wiki/Real-time_clock).
+This is especially practical for Dual-Boot Systems with Windows and Linux.
+See [Archlinux Wiki](https://wiki.archlinux.org/index.php/System_time#UTC_in_Windows) for more information.
+
+| Before | After |
+|--------|-------|
+|![](./doc/img/oldtime.png)|![](./doc/img/newtime.png)|
+
+### Registry Value
+```
+Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation
+Value: RealTimeIsUniversal
+Type: DWORD
+Data: 0x00000001
+```
+
+### \*.reg Files
+**Enable:** [file coming soon]()
+
+**Disable (Windows default):** [file coming soon]()
+
+### Required Action
+- [ ] **Log off**
+- [x] **Restart**
