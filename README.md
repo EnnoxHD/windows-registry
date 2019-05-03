@@ -54,10 +54,10 @@ See [Archlinux Wiki](https://wiki.archlinux.org/index.php/System_time#UTC_in_Win
 
 ### Registry Value
 ```
-Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation
+  Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation
 Value: RealTimeIsUniversal
-Type: DWORD
-Data: 0x00000001
+ Type: DWORD
+ Data: 0x00000001
 ```
 
 ### \*.reg Files
