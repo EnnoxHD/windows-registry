@@ -6,3 +6,4 @@
 # allow files and file types
 !LICENSE
 !*.md
+!*.png
