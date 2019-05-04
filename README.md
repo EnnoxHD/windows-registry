@@ -21,7 +21,7 @@ For more Information see [License](./LICENSE).
 ### Effect
 | Before | After |
 |--------|-------|
-|![](./doc/img/oldclock.png)|![](./doc/img/newclock.png)|
+|![17:59](./doc/img/oldclock.png)|![18:01:43](./doc/img/newclock.png)|
 
 ### Registry Value
 ```
@@ -50,7 +50,7 @@ See [Archlinux Wiki](https://wiki.archlinux.org/index.php/System_time#UTC_in_Win
 
 | Before | After |
 |--------|-------|
-|![](./doc/img/oldtime.png)|![](./doc/img/newtime.png)|
+|![20:00:00](./doc/img/oldtime.png)|![22:00:00](./doc/img/newtime.png)|
 
 ### Registry Value
 ```
@@ -68,3 +68,79 @@ Value: RealTimeIsUniversal
 ### Required Action
 - [ ] **Log off**
 - [x] **Restart**
+
+---
+
+## 3. User Folders
+### Effect
+Removes User Folders from 'This PC' View and Tree in the File Explorer.
+The Folders are still available through the User Folder itself.
+See [Wikipedia](https://en.wikipedia.org/wiki/File_Explorer) for more Information.
+
+| Before | After |
+|--------|-------|
+|![](./doc/img/3dobjects.png) 3D Objects| removed from 'This PC' View and Tree |
+|![](./doc/img/desktop.png) Desktop | removed from 'This PC' View and Tree |
+|![](./doc/img/documents.png) Documents | removed from 'This PC' View and Tree |
+|![](./doc/img/downloads.png) Downloads | removed from 'This PC' View and Tree |
+|![](./doc/img/music.png) Music | removed from 'This PC' View and Tree |
+|![](./doc/img/pictures.png) Pictures | removed from 'This PC' View and Tree |
+|![](./doc/img/videos.png) Videos | removed from 'This PC' View and Tree |
+
+### Registry Values
+```
+3D Objects:
+-----------
+Key:
+Value:
+Type:
+Data:
+```
+```
+Desktop:
+--------
+Key:
+Value:
+Type:
+Data:
+```
+```
+Documents:
+----------
+Key:
+Value:
+Type:
+Data:
+```
+```
+Downloads:
+----------
+Key:
+Value:
+Type:
+Data:
+```
+```
+Music:
+------
+Key:
+Value:
+Type:
+Data:
+```
+```
+Pictures:
+---------
+Key:
+Value:
+Type:
+Data:
+```
+```
+Videos:
+-------
+Key:
+Value:
+Type:
+Data:
+```
