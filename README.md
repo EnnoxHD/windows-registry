@@ -37,6 +37,7 @@ Value: ShowSecondsInSystemClock
 **Disable (Windows default):** [file coming soon]()
 
 ### Required Action
+- [ ] **Reopen or refresh**
 - [x] **Log off**
 - [ ] **Restart**
 
@@ -66,6 +67,7 @@ Value: RealTimeIsUniversal
 **Disable (Windows default):** [file coming soon]()
 
 ### Required Action
+- [ ] **Reopen or refresh**
 - [ ] **Log off**
 - [x] **Restart**
 
@@ -144,3 +146,20 @@ Value:
 Type:
 Data:
 ```
+
+### \*.reg Files
+| Folder | Enable | Disable (Windows default) |
+|--------|--------|---------|
+|![](./doc/img/3dobjects.png) 3D Objects| [file coming soon]() | [file coming soon]() |
+|![](./doc/img/desktop.png) Desktop | [file coming soon]() | [file coming soon]() |
+|![](./doc/img/documents.png) Documents | [file coming soon]() | [file coming soon]() |
+|![](./doc/img/downloads.png) Downloads | [file coming soon]() | [file coming soon]() |
+|![](./doc/img/music.png) Music | [file coming soon]() | [file coming soon]() |
+|![](./doc/img/pictures.png) Pictures | [file coming soon]() | [file coming soon]() |
+|![](./doc/img/videos.png) Videos | [file coming soon]() | [file coming soon]() |
+|![](./doc/img/folder.png) **All Folders** | [file coming soon]() | [file coming soon]() |
+
+### Required Action
+- [x] **Reopen or refresh**
+- [ ] **Log off**
+- [ ] **Restart**
