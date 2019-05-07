@@ -32,9 +32,9 @@ Value: ShowSecondsInSystemClock
 ```
 
 ### \*.reg Files
-**Enable:** [file coming soon]()
+**Enable:** [ShowSecondsInSystemClock_Enable.reg](./src/showsecondsinsystemclock/ShowSecondsInSystemClock_Enable.reg)
 
-**Disable (Windows default):** [file coming soon]()
+**Disable (Windows default):** [ShowSecondsInSystemClock_Disable.reg](./src/showsecondsinsystemclock/ShowSecondsInSystemClock_Disable.reg)
 
 ### Required Action
 - [ ] **Reopen or refresh**
