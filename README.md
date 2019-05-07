@@ -21,7 +21,7 @@ For more Information see [License](./LICENSE).
 ### Effect
 | Before | After |
 |--------|-------|
-|![17:59](./doc/img/oldclock.png)|![18:01:43](./doc/img/newclock.png)|
+|![17:59](./doc/img/showsecondsinsystemclock/oldclock.png)|![18:01:43](./doc/img/showsecondsinsystemclock/newclock.png)|
 
 ### Registry Value
 ```
@@ -51,7 +51,7 @@ See [Archlinux Wiki](https://wiki.archlinux.org/index.php/System_time#UTC_in_Win
 
 | Before | After |
 |--------|-------|
-|![20:00:00](./doc/img/oldtime.png)|![22:00:00](./doc/img/newtime.png)|
+|![20:00:00](./doc/img/realtimeisuniversal/oldtime.png)|![22:00:00](./doc/img/realtimeisuniversal/newtime.png)|
 
 ### Registry Value
 ```
@@ -81,13 +81,13 @@ See [Wikipedia](https://en.wikipedia.org/wiki/File_Explorer) for more Informatio
 
 | Before | After |
 |--------|-------|
-|![](./doc/img/3dobjects.png) 3D Objects| removed from 'This PC' View and Tree |
-|![](./doc/img/desktop.png) Desktop | removed from 'This PC' View and Tree |
-|![](./doc/img/documents.png) Documents | removed from 'This PC' View and Tree |
-|![](./doc/img/downloads.png) Downloads | removed from 'This PC' View and Tree |
-|![](./doc/img/music.png) Music | removed from 'This PC' View and Tree |
-|![](./doc/img/pictures.png) Pictures | removed from 'This PC' View and Tree |
-|![](./doc/img/videos.png) Videos | removed from 'This PC' View and Tree |
+|![](./doc/img/userfolders/3dobjects.png) 3D Objects| removed from 'This PC' View and Tree |
+|![](./doc/img/userfolders/desktop.png) Desktop | removed from 'This PC' View and Tree |
+|![](./doc/img/userfolders/documents.png) Documents | removed from 'This PC' View and Tree |
+|![](./doc/img/userfolders/downloads.png) Downloads | removed from 'This PC' View and Tree |
+|![](./doc/img/userfolders/music.png) Music | removed from 'This PC' View and Tree |
+|![](./doc/img/userfolders/pictures.png) Pictures | removed from 'This PC' View and Tree |
+|![](./doc/img/userfolders/videos.png) Videos | removed from 'This PC' View and Tree |
 
 ### Registry Keys
 ```
@@ -146,14 +146,14 @@ Key: -HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyCo
 ### \*.reg Files
 | Folder | Enable | Disable (Windows default) |
 |--------|--------|---------|
-|![](./doc/img/3dobjects.png) 3D Objects| [file coming soon]() | [file coming soon]() |
-|![](./doc/img/desktop.png) Desktop | [file coming soon]() | [file coming soon]() |
-|![](./doc/img/documents.png) Documents | [file coming soon]() | [file coming soon]() |
-|![](./doc/img/downloads.png) Downloads | [file coming soon]() | [file coming soon]() |
-|![](./doc/img/music.png) Music | [file coming soon]() | [file coming soon]() |
-|![](./doc/img/pictures.png) Pictures | [file coming soon]() | [file coming soon]() |
-|![](./doc/img/videos.png) Videos | [file coming soon]() | [file coming soon]() |
-|![](./doc/img/folder.png) **All Folders** | [file coming soon]() | [file coming soon]() |
+|![](./doc/img/userfolders/3dobjects.png) 3D Objects| [file coming soon]() | [file coming soon]() |
+|![](./doc/img/userfolders/desktop.png) Desktop | [file coming soon]() | [file coming soon]() |
+|![](./doc/img/userfolders/documents.png) Documents | [file coming soon]() | [file coming soon]() |
+|![](./doc/img/userfolders/downloads.png) Downloads | [file coming soon]() | [file coming soon]() |
+|![](./doc/img/userfolders/music.png) Music | [file coming soon]() | [file coming soon]() |
+|![](./doc/img/userfolders/pictures.png) Pictures | [file coming soon]() | [file coming soon]() |
+|![](./doc/img/userfolders/videos.png) Videos | [file coming soon]() | [file coming soon]() |
+|![](./doc/img/userfolders/folder.png) **All Folders** | [file coming soon]() | [file coming soon]() |
 
 ### Required Action
 - [x] **Reopen or refresh**
