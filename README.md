@@ -62,9 +62,9 @@ Value: RealTimeIsUniversal
 ```
 
 ### \*.reg Files
-**Enable:** [file coming soon]()
+**Enable:** [RealTimeIsUniversal_Enable.reg](./src/realtimeisuniversal/RealTimeIsUniversal_Enable.reg)
 
-**Disable (Windows default):** [file coming soon]()
+**Disable (Windows default):** [RealTimeIsUniversal_Disable.reg](./src/realtimeisuniversal/RealTimeIsUniversal_Disable.reg)
 
 ### Required Action
 - [ ] **Reopen or refresh**
