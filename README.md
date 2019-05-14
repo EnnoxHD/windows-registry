@@ -5,7 +5,7 @@ For general Information about the Windows Registry see e.g. [Wikipedia](https://
 ---
 
 ## Disclaimer
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -146,14 +146,14 @@ Key: -HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyCo
 ### \*.reg Files
 | Folder | Enable | Disable (Windows default) |
 |--------|--------|---------|
-|![](./doc/img/userfolders/3dobjects.png) 3D Objects| [file coming soon]() | [file coming soon]() |
-|![](./doc/img/userfolders/desktop.png) Desktop | [file coming soon]() | [file coming soon]() |
-|![](./doc/img/userfolders/documents.png) Documents | [file coming soon]() | [file coming soon]() |
-|![](./doc/img/userfolders/downloads.png) Downloads | [file coming soon]() | [file coming soon]() |
-|![](./doc/img/userfolders/music.png) Music | [file coming soon]() | [file coming soon]() |
-|![](./doc/img/userfolders/pictures.png) Pictures | [file coming soon]() | [file coming soon]() |
-|![](./doc/img/userfolders/videos.png) Videos | [file coming soon]() | [file coming soon]() |
-|![](./doc/img/userfolders/folder.png) **All Folders** | [file coming soon]() | [file coming soon]() |
+|![](./doc/img/userfolders/3dobjects.png) 3D Objects| [Remove3DObjects_Enable.reg](./src/userfolders/Remove3DObjects_Enable.reg) | [Remove3DObjects_Disable.reg](./src/userfolders/Remove3DObjects_Disable.reg) |
+|![](./doc/img/userfolders/desktop.png) Desktop | [RemoveDesktop_Enable.reg](./src/userfolders/RemoveDesktop_Enable.reg) | [RemoveDesktop_Disable.reg](./src/userfolders/RemoveDesktop_Disable.reg) |
+|![](./doc/img/userfolders/documents.png) Documents | [RemoveDocuments_Enable.reg](./src/userfolders/RemoveDocuments_Enable.reg) | [RemoveDocuments_Disable.reg](./src/userfolders/RemoveDocuments_Disable.reg) |
+|![](./doc/img/userfolders/downloads.png) Downloads | [RemoveDownloads_Enable.reg](./src/userfolders/RemoveDownloads_Enable.reg) | [RemoveDownloads_Disable.reg](./src/userfolders/RemoveDownloads_Disable.reg) |
+|![](./doc/img/userfolders/music.png) Music | [RemoveMusic_Enable.reg](./src/userfolders/RemoveMusic_Enable.reg) | [RemoveMusic_Disable.reg](./src/userfolders/RemoveMusic_Disable.reg) |
+|![](./doc/img/userfolders/pictures.png) Pictures | [RemovePictures_Enable.reg](./src/userfolders/RemovePictures_Enable.reg) | [RemovePictures_Disable.reg](./src/userfolders/RemovePictures_Disable.reg) |
+|![](./doc/img/userfolders/videos.png) Videos | [RemoveVideos_Enable.reg](./src/userfolders/RemoveVideos_Enable.reg) | [RemoveVideos_Disable.reg](./src/userfolders/RemoveVideos_Disable.reg) |
+|![](./doc/img/userfolders/folder.png) **All Folders** | [RemoveAllFolders_Enable.reg](./src/userfolders/RemoveAllFolders_Enable.reg) | [RemoveAllFolders_Disable.reg](./src/userfolders/RemoveAllFolders_Disable.reg) |
 
 ### Required Action
 - [x] **Reopen or refresh**
