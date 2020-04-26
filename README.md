@@ -169,6 +169,8 @@ Key: -HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyCo
 | enter Unicode code points in decimal | ... in hexadecimal |
 | (`Alt pressed` + up to 4 `Numpad` digits) | (`Alt pressed` + `+` + up to 4 `Numpad` or `{A,B,C,D,E,F}` digits) |
 
+- An overview is available at [altcodeunicode.com](https://altcodeunicode.com/how-to-use-alt-codes/).
+
 ### Registry Value
 ```
   Key: HKEY_CURRENT_USER\Control Panel\Input Method
