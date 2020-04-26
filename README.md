@@ -159,3 +159,30 @@ Key: -HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyCo
 - [x] **Reopen or refresh**
 - [ ] **Log off**
 - [ ] **Restart**
+
+---
+
+## 4. Enable Hex Numpad
+### Effect
+| Before | After |
+|--------|-------|
+| enter Unicode code points in decimal | ...in hexadecimal |
+| (`Alt pressed` + up to 4 `Numpad` digits) | (`Alt pressed` + up to 4 `Numpad` or `{A,B,C,D,E,F}` digits) |
+
+### Registry Value
+```
+  Key: HKEY_CURRENT_USER\Control Panel\Input Method
+Value: EnableHexNumpad
+ Type: REG_SZ
+ Data: 1
+```
+
+### \*.reg Files
+**Enable:** [EnableHexNumpad_Enable.reg](./src/enablehexnumpad/EnableHexNumpad_Enable.reg)
+
+**Disable (Windows default):** [EnableHexNumpad_Disable.reg](./src/enablehexnumpad/EnableHexNumpad_Disable.reg)
+
+### Required Action
+- [ ] **Reopen or refresh**
+- [ ] **Log off**
+- [x] **Restart**
