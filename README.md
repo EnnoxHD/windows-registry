@@ -166,8 +166,8 @@ Key: -HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyCo
 ### Effect
 | Before | After |
 |--------|-------|
-| enter Unicode code points in decimal | ...in hexadecimal |
-| (`Alt pressed` + up to 4 `Numpad` digits) | (`Alt pressed` + up to 4 `Numpad` or `{A,B,C,D,E,F}` digits) |
+| enter Unicode code points in decimal | ... in hexadecimal |
+| (`Alt pressed` + up to 4 `Numpad` digits) | (`Alt pressed` + `+` + up to 4 `Numpad` or `{A,B,C,D,E,F}` digits) |
 
 ### Registry Value
 ```
