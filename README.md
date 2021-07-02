@@ -212,3 +212,27 @@ Value: DisableLogonBackgroundImage
 - [x] **Reopen or refresh**
 - [ ] **Log off**
 - [ ] **Restart**
+
+## 6. Disable Flashing Taskbar Icons
+### Effect
+| Before | After |
+|--------|-------|
+| Window icons requesting user attention flashes 7 times | No flashing icons on Taskbar |
+
+### Registry Value
+```
+  Key: HKEY_CURRENT_USER\Control Panel\Desktop
+Value: ForegroundFlashCount
+ Type: DWORD
+ Data: 0
+```
+
+### \*.reg Files
+**Enable:** [ForegroundFlashCount_Enable.reg](./src/foregroundflashcount/ForegroundFlashCount_Enable.reg)
+
+**Disable (Windows default):** [ForegroundFlashCount_Disable.reg](./src/foregroundflashcount/ForegroundFlashCount_Disable.reg)
+
+### Required Action
+- [x] **Reopen or refresh**
+- [ ] **Log off**
+- [ ] **Restart**
