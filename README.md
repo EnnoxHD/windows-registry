@@ -262,3 +262,27 @@ Value: ForegroundLockTimeout
 - [x] **Reopen or refresh**
 - [ ] **Log off**
 - [ ] **Restart**
+
+## 8. Always show Recycle Bin in Explorer Tree
+### Effect
+| Before | After |
+|--------|-------|
+| The Recycle Bin is not shown in the Explorer Tree by default. | Always shows the Recycle Bin. |
+
+### Registry Value
+```
+  Key: HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}
+Value: System.IsPinnedToNameSpaceTree
+ Type: DWORD
+ Data: 1
+```
+
+### \*.reg Files
+**Enable:** [RecycleBinInExplorerTree_Enable.reg](./src/recyclebininexplorertree/RecycleBinInExplorerTree_Enable.reg)
+
+**Disable (Windows default):** [RecycleBinInExplorerTree_Disable.reg](./src/recyclebininexplorertree/RecycleBinInExplorerTree_Disable.reg)
+
+### Required Action
+- [x] **Reopen or refresh**
+- [ ] **Log off**
+- [ ] **Restart**
