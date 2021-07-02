@@ -188,3 +188,27 @@ Value: EnableHexNumpad
 - [ ] **Reopen or refresh**
 - [ ] **Log off**
 - [x] **Restart**
+
+## 5. Disable Logon Background Image
+### Effect
+| Before | After |
+|--------|-------|
+| Image gets displayed at Logon | Single color background at Logon |
+
+### Registry Value
+```
+  Key: HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\System
+Value: DisableLogonBackgroundImage
+ Type: DWORD
+ Data: 1
+```
+
+### \*.reg Files
+**Enable:** [DisableLogonBackgroundImage_Enable.reg](./src/disablelogonbackgroundimage/DisableLogonBackgroundImage_Enable.reg)
+
+**Disable (Windows default):** [DisableLogonBackgroundImage_Disable.reg](./src/disablelogonbackgroundimage/DisableLogonBackgroundImage_Disable.reg)
+
+### Required Action
+- [x] **Reopen or refresh**
+- [ ] **Log off**
+- [ ] **Restart**
