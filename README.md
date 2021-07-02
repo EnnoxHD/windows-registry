@@ -2,6 +2,8 @@
 Just some useful Registry Stuff.
 For general Information about the Windows Registry see e.g. [Wikipedia](https://en.wikipedia.org/wiki/Windows_Registry).
 
+You may also be interested in my [windows-config Repository](https://github.com/EnnoxHD/windows-config).
+
 ---
 
 ## Disclaimer
