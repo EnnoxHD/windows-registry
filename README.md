@@ -236,3 +236,27 @@ Value: ForegroundFlashCount
 - [x] **Reopen or refresh**
 - [ ] **Log off**
 - [ ] **Restart**
+
+## 7. Always display new windows in the foreground
+### Effect
+| Before | After |
+|--------|-------|
+| A new window may wait 200 seconds in the background | All windows appear instantly in the foreground |
+
+### Registry Value
+```
+  Key: HKEY_CURRENT_USER\Control Panel\Desktop
+Value: ForegroundLockTimeout
+ Type: DWORD
+ Data: 0
+```
+
+### \*.reg Files
+**Enable:** [ForegroundLockTimeout_Enable.reg](./src/foregroundlocktimeout/ForegroundLockTimeout_Enable.reg)
+
+**Disable (Windows default):** [ForegroundLockTimeout_Disable.reg](./src/foregroundlocktimeout/ForegroundLockTimeout_Disable.reg)
+
+### Required Action
+- [x] **Reopen or refresh**
+- [ ] **Log off**
+- [ ] **Restart**
