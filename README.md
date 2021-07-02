@@ -286,3 +286,6 @@ Value: System.IsPinnedToNameSpaceTree
 - [x] **Reopen or refresh**
 - [ ] **Log off**
 - [ ] **Restart**
+
+## 9. Context menu entries for Explorer
+For custom context menu entries in the Explorer see [this post on StackOverflow](https://stackoverflow.com/a/29769228).
