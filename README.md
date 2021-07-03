@@ -202,7 +202,7 @@ Value: EnableHexNumpad
   Key: HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\System
 Value: DisableLogonBackgroundImage
  Type: DWORD
- Data: 1
+ Data: 0x00000001
 ```
 
 ### \*.reg Files
@@ -226,7 +226,7 @@ Value: DisableLogonBackgroundImage
   Key: HKEY_CURRENT_USER\Control Panel\Desktop
 Value: ForegroundFlashCount
  Type: DWORD
- Data: 0
+ Data: 0x00000000
 ```
 
 ### \*.reg Files
@@ -250,7 +250,7 @@ Value: ForegroundFlashCount
   Key: HKEY_CURRENT_USER\Control Panel\Desktop
 Value: ForegroundLockTimeout
  Type: DWORD
- Data: 0
+ Data: 0x00000000
 ```
 
 ### \*.reg Files
@@ -274,7 +274,7 @@ Value: ForegroundLockTimeout
   Key: HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}
 Value: System.IsPinnedToNameSpaceTree
  Type: DWORD
- Data: 1
+ Data: 0x00000001
 ```
 
 ### \*.reg Files
