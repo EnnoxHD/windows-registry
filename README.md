@@ -289,3 +289,50 @@ Value: System.IsPinnedToNameSpaceTree
 
 ## 9. Context menu entries for Explorer
 For custom context menu entries in the Explorer see [this post on StackOverflow](https://stackoverflow.com/a/29769228).
+
+## 10. Windows 11 Customizations
+
+### Restore Windows 10 Start
+Registry Value:
+```
+  Key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+Value: Start_ShowClassicMode
+ Type: DWORD
+ Data: 0x00000001
+```
+
+### Start left aligned
+Registry Value:
+```
+  Key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+Value: TaskbarAI
+ Type: DWORD
+ Data: 0x00000000 (left), 0x00000001 (center)
+```
+
+### Taskbar Size
+Registry Value:
+```
+  Key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+Value: TaskbarSi
+ Type: DWORD
+ Data: 0x00000000 (small), 0x00000001 (medium), 0x00000002 (large)
+```
+
+### Disable Snap Assist Flyout
+Registry Value:
+```
+  Key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+Value: EnableSnapAssistFlyout
+ Type: DWORD
+ Data: 0x00000000
+```
+
+### Restore Windows 10 Explorer
+Registry Value:
+```
+  Key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+Value: SeparateProcess
+ Type: DWORD
+ Data: 0x00000001
+```
