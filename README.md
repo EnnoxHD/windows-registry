@@ -292,15 +292,6 @@ For custom context menu entries in the Explorer see [this post on StackOverflow]
 
 ## 10. Windows 11 Customizations
 
-### Restore Windows 10 Start
-Registry Value:
-```
-  Key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
-Value: Start_ShowClassicMode
- Type: DWORD
- Data: 0x00000001
-```
-
 ### Start left aligned
 Registry Value:
 ```
