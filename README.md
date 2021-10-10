@@ -290,7 +290,21 @@ Value: System.IsPinnedToNameSpaceTree
 ## 9. Context menu entries for Explorer
 For custom context menu entries in the Explorer see [this post on StackOverflow](https://stackoverflow.com/a/29769228).
 
-## 10. Windows 11 Customizations
+## 10. Windows God-Mode Folder
+### Effect
+Access a huge amount of admin tools directly through a folder.
+
+### How To
+Using an account with administrative privileges create a new folder with a special name anywhere you like.
+To name this special folder `GodMode` it must be named `GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}`.
+If you want to customize the name just replace the first part excluding `.` and the following characters.
+
+### Required Action
+- [x] **Reopen or refresh**
+- [ ] **Log off**
+- [ ] **Restart**
+
+## 11. Windows 11 Customizations
 
 ### Start left aligned
 Registry Value:
