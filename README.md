@@ -318,6 +318,12 @@ Value: AllowUpgradesWithUnsupportedTPMOrCPU
 ### Clean Install from ISO
 [How to upgrade to Windows 11, whether your PC is supported or not (arstechnica.com)](https://arstechnica.com/gadgets/2021/10/how-to-upgrade-to-windows-11-whether-your-pc-is-supported-or-not/)
 
+> Boot the ISO image and wait until the first screen of the setup appears.
+Then press `Ctrl + F10` to open a command prompt.
+To open the registry editor type `regedit` and
+execute the command with the enter key.
+Once finished close the editor as well as the command promt and
+continue with the normal installation process.
 ```
   Key: HKEY_LOCAL_MACHINE\SYSTEM\Setup
 Value: BypassSecureBootCheck
