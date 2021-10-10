@@ -304,7 +304,34 @@ If you want to customize the name just replace the first part excluding `.` and 
 - [ ] **Log off**
 - [ ] **Restart**
 
-## 11. Windows 11 Customizations
+## 11. Install Windows 11 on unsupported Hardware
+### Upgrade from Windows 10
+[Ways to install Windows 11 (microsoft.com)](https://support.microsoft.com/en-us/windows/ways-to-install-windows-11-e0edbbfb-cfc5-4011-868b-2ce77ac7c70e)
+
+```
+  Key: HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup
+Value: AllowUpgradesWithUnsupportedTPMOrCPU
+ Type: DWORD
+ Data: 0x00000001
+```
+
+### Clean Install from ISO
+[How to upgrade to Windows 11, whether your PC is supported or not (arstechnica.com)](https://arstechnica.com/gadgets/2021/10/how-to-upgrade-to-windows-11-whether-your-pc-is-supported-or-not/)
+
+```
+  Key: HKEY_LOCAL_MACHINE\SYSTEM\Setup
+Value: BypassSecureBootCheck
+ Type: DWORD
+ Data: 0x00000001
+```
+```
+  Key: HKEY_LOCAL_MACHINE\SYSTEM\Setup
+Value: BypassTPMCheck
+ Type: DWORD
+ Data: 0x00000001
+```
+
+## 12. Windows 11 Customizations
 
 ### Start left aligned
 Registry Value:
